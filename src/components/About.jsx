@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-tilt";
+import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in  
+        I'm a skilled software developer with experience in
         JavaScript, and expertise in frameworks like React and
         Three.js. I'm a quick learner.
         Let's work together to bring your ideas to life!
